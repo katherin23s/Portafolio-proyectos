@@ -1,6 +1,6 @@
 <?php
 //Requerir archivo del controlador
-require_once "Controlador/PortafolioControler.php";
+require_once "Controlador/PortafolioController.php";
 
 $portafolio = new PortafolioController();
 $portafolio->portafolio();

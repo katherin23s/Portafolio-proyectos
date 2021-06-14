@@ -1,0 +1,27 @@
+{
+  "name": "Portafolio-digital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss ./src/tailwind.css -o ./Vista/css/main.css",
+    "build:css": "NODE_ENV=production postcss ./src/tailwind.css -o ./Vista/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katherin23s/Portafolio-proyectos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katherin23s/Portafolio-proyectos/issues"
+  },
+  "homepage": "https://github.com/katherin23s/Portafolio-proyectos#readme",
+  "dependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.4"
+  }
+}
